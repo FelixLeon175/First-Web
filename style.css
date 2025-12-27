@@ -1,0 +1,272 @@
+/* Halaman utama */
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Quicksand:wght@300..700&display=swap');
+body{
+font: 16px/28px Arial, Sans-Serif;
+background-color: rgb(255,255,255);
+color: rgb(50,50,50);
+}
+.container{
+  width: 100%;
+  background-color: white;
+}
+.header{
+  padding: 20px;
+}
+.content{
+  width: 100%;
+}
+
+.header .Logo{
+  width: 60px;
+  border-radius: 25%;
+  position: relative;
+  top: -15px;
+  left: -10px;
+  z-index: 1;
+}
+.header .judul{
+  font-family: Fredoka;
+  color:rgb(250,250,250);
+  font-size: 35px;
+  font-weight: 520;
+  width: 70%;
+  position: absolute;
+  top: 10px;
+  left: 80px;
+  z-index: 2;
+}
+.header .judul-back{
+  font-family: Fredoka;
+  color: black;
+  font-size: 35px;
+  font-weight: 900;
+  width: 70%;
+  position: absolute;
+  top: 12px;
+  left: 80.3px;
+  left: 80.3px;
+  z-index: 1;
+}
+.header ul li{
+  display: inline-block;
+  margin-right: 12px;
+}
+.header ul{
+  position: relative;
+  top: -49px;
+  left: 60px;
+  width: 75%;
+  z-index: 1;
+}
+.header ul li a{
+/*   background: linear-gradient(to bottom,#6700b6,#9c3bff,#9c3bff); */
+  background-color: blueviolet;
+  box-shadow:
+     0 0 7px rgba(0,0,0,1.0),
+     0 0 1px rgba(0,0,0,1.0);
+  padding: 5px 12px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #ffffff;
+  text-shadow: 0 0 6px rgba(0,0,0,0.6);
+  font-family: Fredoka;
+  font-weight: 500;
+  font-size: 10px;
+}
+.header ul li a:hover{
+  transition: 1s;
+background: linear-gradient(to bottom,#6700b6,#9c3bff,#9c3bff);
+  box-shadow:
+     0 0 7px rgba(255,255,255,1.0),
+     0 0 1px rgba(255,255,255,1.0);
+  padding: 5px 12px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #000000;
+  text-shadow: 0 0 6px rgba(0,0,0,0.6);
+  font-family: Fredoka;
+  font-weight: 500;
+  font-size: 10px;
+}
+.header .kosong{
+  width: 100%;
+  height: 75px;
+  background: linear-gradient(to right, #1a002b,#6400b5,#b44cff, #cc74ff);
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  right: 0;
+}
+.container .content{
+  width: 100%;
+}
+.container .content .judulArtikel{
+  font-size: 25px;
+  font-family: Arial,Sans-Serif;
+  font-weight: 600;
+  margin-left: 10px;
+  margin-top: -20px;
+  color:black;
+  position: relative;
+  bottom: 20px;
+}
+/*     .container .content .judulArtikel .bajakLaut{
+color: #444444;
+position: relative;
+top: 10px;
+left: 40px;
+font-weight: 500;
+} */
+.container .content img{
+  display: block;
+  margin: auto;
+  width: 250px;
+  margin-top: 30px;
+  padding: 0;
+  border-radius: 5px;
+}
+.container .content .hiasan #luffy1{
+  width: 50px;
+}
+.container .content .hiasan #robin{
+  width: 85px;
+}
+.container .content .hiasan #nami{
+  width: 75px;
+}
+.container .content .hiasan #zoro{
+  width: 100px;
+  transform: scaleX(-1) ;
+}
+.container .content .hiasan #logo1{
+  width: 150px;
+}
+.container .content .hiasan #luffy3{
+  width: 85px;
+  transform: scaleX(-1) rotate(-2deg);
+}
+.luffy1{
+  display: block;
+  top: 137px;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+.robin{
+  display: block;
+  position: absolute;
+  top: 130px;
+  left: 252px;
+  right: 0;
+}
+.nami{
+  display: block;
+  position: absolute;
+  top: 130px;
+  right: 252px;
+  left: 0;
+}
+.zoro{
+  display: block;
+  position: absolute;
+  top: 470px;
+  right: 330px;
+  left: -43px;
+  z-index: 1;
+}
+.logo1{
+  display: block;
+  position: absolute;
+  top: 1020px;
+  right: 0px;
+  left: 0px;
+  z-index: 2;
+}
+.luffy3{
+  width: 50%;
+  display: block;
+  position: absolute;
+  top: 970px;
+  right: 0px;
+  left: 175px;
+  z-index: 1;
+}
+
+.container .content .teks{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.container .content .teks p{
+  display: block;
+  position: relative;
+  right: 0;
+  left: 12px;
+  z-index: 2;
+  text-indent: 20px;
+  padding: 40px;
+  font-size: 14px;
+  line-height: 15px;
+  word-spacing: -1px;
+  text-align: justify;
+  text-justify: inter-word;
+  margin-bottom: -70px;
+  color: #000000;
+  font-weight: 500;
+  width: 260px;
+  font-family: Quicksand;
+  letter-spacing: -0.5px;
+}
+.container .content .teks p:nth-child(6){
+  margin-top: 113px;
+  color: blue;
+  text-indent: -25px;
+  font-size: 16px;
+  line-height: 18px;
+  word-spacing: -1px;
+  letter-spacing: -1px;
+  font-weight: 500;
+}
+.katabijak{
+  background-color:#dcff14;
+  padding-top: -3px;
+  padding-bottom: -3px;
+  padding-left: 3px;
+  padding-right: 3px;
+  border-radius: 3px;
+  color: black;
+}
+.monkey{
+  color: black;
+  font-weight: 700;
+  position: relative;
+  top: 5px;
+}
+.kutip{
+  font-size: 30px;
+}
+#kutipKiri{
+  margin-right: 0px;
+}
+#kutipKanan{
+  margin-left: 0px;
+}
+.ksong{
+  width: 100%;
+  height: 50px;
+}
+.footer{
+  width: 100%;
+  height: 50px;
+  background-color: #222222;
+  overflow: hidden;
+}
+.footer p{
+  text-align: center;
+  color: rgb(240,240,240);
+}
+.footer p:nth-child(2){
+  margin-top: -10px;
+}

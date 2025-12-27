@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>About</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .container{
+      width: 100%;
+      height: 90vh;
+      overflow: hidden;
+    }
+    .footer{
+      position: absolute;
+      bottom: 0;
+    }
+    .content{
+      width: 100%;
+      height: 100%;
+      background-color: rgba(250,260,250, 0);
+      position: relative;
+      top: 170px;
+    }
+    .content .hkos{
+      display: block;
+      height: 100%;
+      text-align: center;
+    }
+    .content h1 a{
+      text-decoration: none;
+      color: blueviolet;
+      font-weight: 600;
+    }
+    .content h1 a:hover{
+      background-color: blueviolet;
+      color: cyan;
+      font-weight: 800;
+      border-radius: 5px;
+      padding: 3px 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Header -->
+    <div class="header">
+      <img src="image/kepalakapal.png" alt="Logo" class="Logo">
+      <h1 class="judul">First Website</h1>
+      <h1 class="judul-back">First Website</h1>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#" onclick="clickNav()">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="kosong"></div>
+    </div>
+    
+    <!-- Content --> 
+    <div class="content">
+      <h1 class="hkos">Halaman ini masih kosong.
+      <br>
+      Klik <a href="index.html">Disini</a> untuk kembali ke halaman utama.
+      </h1>
+    </div>
+    
+   <!-- Footer -->
+    <div class="footer">
+      <p>Copyright Irfan Syah</p>
+      <p>© 2025</p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
